@@ -1,0 +1,1 @@
+**Prime number** it`s a number that only divisible by itself and 1

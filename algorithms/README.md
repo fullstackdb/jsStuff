@@ -1,1 +1,1 @@
-**Helper js features**
+**Some algorithmic tasks**
