@@ -1,0 +1,1 @@
+**Match substring** of a sting algorithm.
