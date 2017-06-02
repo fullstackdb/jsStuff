@@ -1,0 +1,34 @@
+{
+  "name": "@fullstackdb/flow",
+  "version": "1.0.0",
+  "description": "Try flow library",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "flow-bin": "^0.47.0",
+    "babel-preset-flow": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --presets flow index.js --out-file compiled.js",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackdb/jsStuff.git"
+  },
+  "keywords": [
+    "flowJS",
+    "typings in JS",
+    "coreJS"
+  ],
+  "author": "fullstackdb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fullstackdb/jsStuff/issues"
+  },
+  "homepage": "https://github.com/fullstackdb/jsStuff#readme"
+}
