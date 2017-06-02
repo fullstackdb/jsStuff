@@ -1,0 +1,33 @@
+{
+  "name": "@fullstackdb/polished",
+  "version": "1.0.0",
+  "description": "Try polished library for #CSSInJS",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-plugin-polished": "^1.1.0",
+    "polished": "^1.1.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildCSS": "babel --plugins polished index.js --out-file style-compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackdb/jsStuff.git"
+  },
+  "keywords": [
+    "CSSInJS",
+    "polished",
+    "coreJS"
+  ],
+  "author": "fullstackdb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fullstackdb/jsStuff/issues"
+  },
+  "homepage": "https://github.com/fullstackdb/jsStuff#readme"
+}
